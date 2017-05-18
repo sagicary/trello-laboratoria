@@ -3,11 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trello Laboratoria</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
-<input type="text" id="lista" placeholder="Añadir una lista..." onclick="boton()">
+
+
+<input type="text" id="lista" placeholder="Añadir una lista..." onclick="botonLista()" style="display:block;">
 <p>
-<button id="boton" onclick="listar()" style="display:none;">Guardar</button>
+<button id="boton-lista" onclick="listar()" style="display:none;">Guardar</button>
 <div id="muestra-lista">
 </div>
 
